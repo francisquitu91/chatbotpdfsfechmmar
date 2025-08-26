@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.markdown-content {
+  @apply text-gray-800;
+}
+
+.markdown-content > *:first-child {
+  @apply mt-0;
+}
+
+.markdown-content > *:last-child {
+  @apply mb-0;
+}
+
+.comerciandola-text {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.05em;
+}
